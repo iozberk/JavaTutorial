@@ -21,7 +21,12 @@ public class Calculator {
 			System.out.println("Subtraction: " + (num1 - num2));
 		}
 		else if (select == 3) {
-			System.out.println("Division: " + (num1 / num2));
+			if (num2 == 0) {
+				System.out.println("Undefined");
+			}
+			else {
+				System.out.println("Division: " + (num1 / num2));
+			}
 		}
 		else {
 			System.out.println("Multiplication: " + (num1 * num2));
