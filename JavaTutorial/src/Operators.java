@@ -14,6 +14,24 @@ public class Operators {
 		System.out.println("Cikarma: " + cikarma);
 		System.out.println("Carpma: " + carpma);
 		System.out.println("Bolme: " + bolme);
+		
+		int mod = a % b;
+		System.out.println("A mod b : " + mod);
+		toplam++;
+		System.out.println(toplam);
+		cikarma--;
+		System.out.println(cikarma);
+		
+		System.out.println("------------");
+		System.out.println("== operatoru -->> " + (a == b));
+		System.out.println("!= operatoru -->> " + (a != b));
+		System.out.println("> operatoru -->> " + (a > b));
+		System.out.println("< operatoru -->> " + (a < b));
+		System.out.println(">= operatoru -->> " + (a >= b));
+		System.out.println("<= operatoru -->> " + (a <= b));
+		
+		
+		
 		}
 
 }
