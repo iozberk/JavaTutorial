@@ -12,7 +12,7 @@ public class ConsoleDataEnter {
 		System.out.println("B Sayisini Giriniz: " );
 		b = input.nextInt();
 		
-		System.out.println("A + B = "+ (a +b));
+		System.out.println("A + B = "+ (a + b));
 		System.out.println("A - B = "+ (a - b));
 	}
 
