@@ -22,7 +22,7 @@ public class Calculator {
 		}
 		else if (select == 3) {
 			if (num2 == 0) {
-				System.out.println("Undefined");
+				System.out.println("Undefined Division");
 			}
 			else {
 				System.out.println("Division: " + (num1 / num2));
