@@ -31,7 +31,11 @@ public class Operators {
 		System.out.println("<= operatoru -->> " + (a <= b));
 		
 		
-		
+		System.out.println("----------------------");
+		int number1 = 12;
+		System.out.println(number1);
+		number1 += 3;
+		System.out.println(number1);
 		}
 
 }
