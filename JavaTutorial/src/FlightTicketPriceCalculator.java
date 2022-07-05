@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class FligtTicketPriceCalculator {
+public class FlightTicketPriceCalculator {
 
 	public static void main(String[] args) {
 		// price per kilometer -->> 0.10$
