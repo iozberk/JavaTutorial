@@ -11,7 +11,6 @@ public class FlightTicketPriceCalculator {
 		
 		Scanner input = new Scanner(System.in);
 		int age, kilometer, flighttype;
-		double kilometerprice = 0.1;
 		System.out.println("Please enter flight kilometer: ");
 		kilometer = input.nextInt();
 		System.out.println("Please enter your age: ");
@@ -23,25 +22,23 @@ public class FlightTicketPriceCalculator {
 		double price, agediscount, flighttypediscount;
 		
 		if (kilometer > 0 && age > 0 && (flighttype == 1 || flighttype == 2)) {
-			price = kilometer * kilometerprice;
+			price = kilometer * 0.10;
 			if (age < 12) {
-				agediscount = price * 0.5;
-				price -= agediscount;
+				agediscount = price * 0.50;
 			}
 			else if (age >= 12 && age <= 24) {
-				agediscount = price * 0.1;
-				price -= agediscount;
+				agediscount = price * 0.10;
 			}
 			else if (age >= 65) {
-				agediscount = price * 0.3;
-				price -= agediscount;
+				agediscount = price * 0.30;
 			}
 			else {
 				agediscount = 0;
 			}
+			price = price - agediscount;
 			if (flighttype == 2) {
-				flighttypediscount = price * 0.2;
-				price -= (price * flighttypediscount) * 0.2;				
+				flighttypediscount = price * 0.20;
+				price = ((price - flighttypediscount) * 2);				
 			}
 			System.out.println("Ticket Price: " + "$"+ price);
 		}
