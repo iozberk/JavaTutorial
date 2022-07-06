@@ -36,7 +36,15 @@ public class ForLoops {
 				System.out.println("i: "+ i + " j: " + j);
 			}	
 		}
+		System.out.println("----Java For Each Loop----");
+		
+		String[] letters = { "a", "b", "c", "d"};
+		
+		for(String i : letters) {
+			System.out.println(i);
 		}
 		
+		System.out.println("----Java For Each Loop----");
 	}
 	
+}
