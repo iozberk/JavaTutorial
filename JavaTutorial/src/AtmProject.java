@@ -39,7 +39,7 @@ public class AtmProject {
 			}
 			
 		}
-		System.out.println("Thanks!!!");		
+		System.out.println("Thanks!!!..");		
 		
 	}
 
