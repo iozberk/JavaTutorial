@@ -26,7 +26,7 @@ public class WhileExample {
 			harmonic--;
 		}
 		System.out.println("Harmonic Result: " + harmonicResult);
-		*/
+		
 		System.out.println("*********************************");
 		// Stars
 		Scanner input2 = new Scanner(System.in);
@@ -41,7 +41,22 @@ public class WhileExample {
 			System.out.println();
 			i++;
 		}
+		*/
 		
+		// Exponent Calculator
+		Scanner input3 = new Scanner(System.in);
+		int num1, num2, result = 1;
+		System.out.println("Enter base number: ");
+		num1 = input3.nextInt();
+		System.out.println("Enter exponent number: ");
+		num2 = input3.nextInt();
+		
+		int i = 1;
+		while(i <= num2) {
+			result = result * num1;
+			i++;
+		}
+		System.out.println("Result: " + result);
 	}
 
 }
