@@ -20,8 +20,13 @@ public class BreakContinue {
 			
 			
 		}
-		
-		
+		System.out.println("----Java Continue----");
+			for(int i = 0; i < 10; i++) {
+				if(i == 3) {
+					continue; // 0 1 2  4 5 6 7 8 9
+				}
+				System.out.println(i);
+			}
 	}
 
 }
