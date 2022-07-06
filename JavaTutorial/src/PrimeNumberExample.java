@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ForLoopsExample {
+public class PrimeNumberExample {
 
 	public static void main(String[] args) {
 		// Prime Number Calculator
