@@ -8,12 +8,21 @@ public class Methods {
 		greeting("Robert");
 		greeting("Patricia");
 		greeting("Jennifer");
-		System.out.println("MSi Test");
+		
+		power(3, 2);
+		power(2, 3);
 	}
 	
 	static void greeting(String a) {
 		String name = a;
 		System.out.println("Hello " + name + "!");
+	}
+	static void power(int num1, int num2) {
+		int result = 1;
+		for(int i = 1; i <= num2; i++) {
+			result *= num1;
+		}
+		System.out.println("Power: "+ result);
 	}
 
 
