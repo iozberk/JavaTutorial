@@ -8,6 +8,7 @@ public class Methods {
 		greeting("Robert");
 		greeting("Patricia");
 		greeting("Jennifer");
+		System.out.println("MSi Test");
 	}
 	
 	static void greeting(String a) {
