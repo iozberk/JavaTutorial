@@ -6,7 +6,7 @@ public class MethodReturn {
 		for(int i = 1; i <= num2; i++) {
 			result *= num2;
 		}
-		// System.out.println("Result: " + result);
+		// System.out.println("Result: " + result); 
 		return result;
 	}
 	
