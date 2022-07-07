@@ -5,8 +5,7 @@ public class RecursiveFibonacci {
 	// f(5) = f(4) + f(3) 
 	// f(4) = f(3) + f(2) 
 	// f(3) = f(2) + f(1) 
-	// f(2) = f(1)
-	
+
 	static int fibrec(int n) {
 		if(n == 1 || n == 2) {
 			return 1;
