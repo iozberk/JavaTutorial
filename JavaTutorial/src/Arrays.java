@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class Arrays {
 
@@ -12,6 +13,19 @@ public class Arrays {
 		for(int i = 0; i < list.length; i++) {
 			System.out.println(i);
 		}
+		
+		int[] list1 = new int[4];
+		Scanner input = new Scanner(System.in);
+		
+		for(int i = 0; i < list1.length; i++) {
+			System.out.println("Please enter " + i + " number");
+			list1[i] = input.nextInt();
+		}
+		
+		for(int i = 0; i < list1.length; i++) {
+			System.out.println(i + " Number is " + list1[i]);
+		}
+		
 	}
 
 }
