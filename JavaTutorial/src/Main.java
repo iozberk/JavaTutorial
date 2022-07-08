@@ -19,10 +19,22 @@ public class Main {
 		System.out.println(myObj1.x);
 		System.out.println(myObj2.x);
 		myMethod();
+		
+		OOP oop = new OOP();
+		oop.num1 = 2;
+		oop.num2 = 5;
+		
+		System.out.println("OOP " + oop.num1);
+		System.out.println("OOP " + oop.num2);
+		
+		OOP oop2 = new OOP();
+		oop2.num1 = 15;
+		oop2.num2 = 23;
+		
+		System.out.println("OOP " + oop2.num1);
+		System.out.println("OOP " + oop2.num2);
 	}
 	
-	
-	OOP oop = new OOP();
 	
 	
 
