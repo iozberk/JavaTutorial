@@ -14,6 +14,8 @@ public class MethodReturn {
 	public static void main(String[] args) {
 		int num3 = power(2,3);
 		System.out.println(num3);
+		
+		
 	}
 	
 	
