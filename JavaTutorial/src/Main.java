@@ -21,5 +21,9 @@ public class Main {
 		myMethod();
 	}
 	
+	
+	OOP oop = new OOP();
+	
+	
 
 }
