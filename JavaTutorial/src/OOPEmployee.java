@@ -32,6 +32,10 @@ public class OOPEmployee {
 			return salary * 1.15;
 		}
 	}
-	
+	public void toString(OOPEmployee employee1) {
+		System.out.println("Tax: " + employee1.tax());
+		System.out.println("Bonuses: " + employee1.bonuses());
+		System.out.println("Pay Raise: " + employee1.payRaise());
+	}
 	
 }
