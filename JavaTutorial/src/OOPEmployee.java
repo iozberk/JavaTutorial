@@ -1,7 +1,7 @@
 
 public class OOPEmployee {
-	private String name;
-	private double salary;
+	public String name;
+	public double salary, totalSalary;
 	private int workHours, hireYear;
 	
 	
@@ -33,9 +33,12 @@ public class OOPEmployee {
 		}
 	}
 	public void toString(OOPEmployee employee1) {
+		System.out.println("Name: " + employee1.name);
 		System.out.println("Tax: " + employee1.tax());
 		System.out.println("Bonuses: " + employee1.bonuses());
 		System.out.println("Pay Raise: " + employee1.payRaise());
+		double totalSalary = employee1.salary - employee1.tax() + employee1.payRaise();
+		System.out.println("Total Salary: " + totalSalary);
 	}
 	
 }
