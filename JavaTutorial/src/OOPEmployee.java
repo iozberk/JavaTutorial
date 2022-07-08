@@ -32,13 +32,14 @@ public class OOPEmployee {
 			return salary * 1.15;
 		}
 	}
-	public void toString(OOPEmployee employee1) {
-		System.out.println("Name: " + employee1.name);
-		System.out.println("Tax: " + employee1.tax());
-		System.out.println("Bonuses: " + employee1.bonuses());
-		System.out.println("Pay Raise: " + employee1.payRaise());
-		double totalSalary = employee1.salary - employee1.tax() + employee1.payRaise();
+	public String toString() {
+		System.out.println("Name: " + this.name);
+		System.out.println("Tax: " + this.tax());
+		System.out.println("Bonuses: " + this.bonuses());
+		System.out.println("Pay Raise: " + this.payRaise());
+		double totalSalary = this.salary - this.tax() + this.payRaise();
 		System.out.println("Total Salary: " + totalSalary);
+		return name;
 	}
 	
 }
