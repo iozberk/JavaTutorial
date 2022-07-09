@@ -20,6 +20,13 @@ public class MathClass {
 		System.out.println(Math.random());  // random
 		System.out.println(Math.round(3.5));// 4
 		
+		
+		System.out.println(Math.abs(-3));       // 3
+		System.out.println(Math.sqrt(9));       // 3
+		System.out.println(Math.tan(45));       // 1.6
+		System.out.println(Math.log(1));       // 0
+
+		
 	}
 
 }
