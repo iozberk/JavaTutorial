@@ -1,6 +1,9 @@
 
 public class StringClass {
 	public static void main(String[] args) {
+		
+		// Ref --->> https://www.w3schools.com/java/java_ref_string.asp
+		
 		// str.length()
 		// str.concat(str2)
 		// str.indexOf("a")
