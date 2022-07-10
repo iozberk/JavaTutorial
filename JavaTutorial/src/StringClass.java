@@ -20,7 +20,7 @@ public class StringClass {
 	    System.out.println(greeting.length());                          // 5 
 	    System.out.println(greeting.concat(greeting1));                 // HelloWorld
 	    System.out.println(greeting.indexOf("e"));                      // 1
-	    System.out.println(greeting.charAt(3));                         // l
+	    System.out.println(greeting.charAt(1));                         // e
 	    System.out.println(greeting.contains("a"));                     // false
 	    System.out.println(greeting.endsWith("o"));                     // true
 	    System.out.println(greeting.startsWith("h"));                   // false
