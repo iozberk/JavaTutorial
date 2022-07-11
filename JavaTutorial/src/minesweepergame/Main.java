@@ -13,6 +13,8 @@ public class Main {
 		column = input.nextInt();
 		MinesweeperGame minesweeper = new MinesweeperGame(row,column);
 		minesweeper.run();
+		
+		
 	}	
 
 }
