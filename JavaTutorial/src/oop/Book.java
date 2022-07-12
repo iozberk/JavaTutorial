@@ -17,8 +17,13 @@ public class Book {
 			this.numberOfPage = numberOfPage;
 		}
 	}
-	
-	public void numberOfPage() {
-		System.out.println(numberOfPage);
+	public int getnumberOfPage() {
+		return this.numberOfPage;
 	}
+	
+	public void setnumberOfPage(int size) {
+		this.numberOfPage = size;
+	}
+	
+	
 }
