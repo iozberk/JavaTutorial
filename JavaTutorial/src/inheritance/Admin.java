@@ -6,6 +6,10 @@ public class Admin extends User {
 	
 		
 	
+	public Admin(int userId, int password, boolean loginStatus) {
+		super(userId, password, loginStatus);
+		
+	}
 	public String getAdminName() {
 		return adminName;
 	}

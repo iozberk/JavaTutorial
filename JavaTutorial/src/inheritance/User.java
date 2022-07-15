@@ -5,9 +5,7 @@ public class User {
 	private int password;
 	private boolean loginStatus;
 	
-	
-	
-	
+
 	public User(int userId, int password, boolean loginStatus) {
 		super();
 		this.userId = userId;

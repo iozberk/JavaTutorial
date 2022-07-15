@@ -9,6 +9,9 @@ public class Customer extends User{
 	public int customerId;
 	
 	
+	public Customer(int userId, int password, boolean loginStatus) {
+		super(userId, password, loginStatus);
+	}
 	public String getCustomerName() {
 		return customerName;
 	}
