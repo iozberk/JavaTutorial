@@ -8,6 +8,11 @@ public class Main {
 		
 		admin.getUserId();    // From User  Class
 		admin.getAdminName(); // From Admin Class
+		
+		Customer customer = new Customer(1, 123456, true);
+		
+		customer.enter();
+		
 	}
 
 }

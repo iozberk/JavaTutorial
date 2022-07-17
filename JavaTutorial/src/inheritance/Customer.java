@@ -12,7 +12,13 @@ public class Customer extends User{
 	public Customer(int userId, int password, boolean loginStatus) {
 		super(userId, password, loginStatus);
 	}
-	public String getCustomerName() {
+	
+	
+	public void enter() {
+		System.out.println(this.customerName +" entered system ");
+	}
+	
+	public String customerName() {
 		return customerName;
 	}
 	public void setCustomerName(String customerName) {
