@@ -11,7 +11,7 @@ public class SoftwareDevelopment extends ItDepartment{
 	
 	
 	public void TurnstileGateCardReaderEntrance() {
-		System.out.println("Overridden method: " + this.role +": " + this.name + " Entered");
+		System.out.println(this.role +": " + this.name + " Entered with Overridden method");
 	}
 	
 	public void TurnstileGateCardReaderExit() {
