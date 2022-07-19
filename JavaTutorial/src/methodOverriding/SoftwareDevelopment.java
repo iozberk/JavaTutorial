@@ -9,9 +9,13 @@ public class SoftwareDevelopment extends ItDepartment{
 		this.role = role;
 	}
 	
-	
+	/*
 	public void TurnstileGateCardReaderEntrance() {
 		System.out.println("Overridden method: " + this.role +": " + this.name + " Entered");
+	}*/
+	
+	public void TurnstileGateCardReaderEntrance() {
+		System.out.println(this.role +": " + this.name + " Entered");
 	}
 	
 	public void TurnstileGateCardReaderExit() {

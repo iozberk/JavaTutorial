@@ -12,7 +12,12 @@ public class Main {
 		System.out.println("Overridden method");
 		softwareEngineer.TurnstileGateCardReaderEntrance();
 		
+		System.out.println("---------------------------");
+		System.out.println("---------------------------");
 		
+		
+		Employee employee = new SoftwareDevelopment("Java OOP","b","c","d","e","f","Polymorphism Method");
+		employee.TurnstileGateCardReaderEntrance();
 	}
 
 }
