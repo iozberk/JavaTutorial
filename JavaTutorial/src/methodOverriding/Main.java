@@ -16,7 +16,7 @@ public class Main {
 		System.out.println("---------------------------");
 		
 		
-		Employee employee = new SoftwareDevelopment("Java OOP","b","c","d","e","f","Polymorphism Method ");
+		Employee employee = new SoftwareDevelopment("Java OOP","b","c","d","e","f","Polymorphism Method: ");
 		employee.TurnstileGateCardReaderEntrance();
 	}
 
