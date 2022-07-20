@@ -13,11 +13,19 @@ public class Main {
 		softwareEngineer.TurnstileGateCardReaderEntrance();
 		
 		System.out.println("---------------------------");
-		System.out.println("---------------------------");
 		
 		
-		Employee employee = new SoftwareDevelopment("Java OOP","b","c","d","e","f","Polymorphism Method: ");
-		employee.TurnstileGateCardReaderEntrance();
+		
+		ItDepartment itEngineer = new ItDepartment("Amanda", "Doe", "amandadoe@gmail.com", "System", "Manager", "Linux, C#");
+		itEngineer.TurnstileGateCardReaderEntrance();
+		
+		
+		
+		Employee[] employeeEnterenceList = {softwareEngineer, infrastructureEngineer, itEngineer};
+		System.out.println("-------------------------------------------------");
+		System.out.println("--------------Polymorphism method----------------");
+		Employee.listEnterence(employeeEnterenceList);
+		
 	}
 
 }

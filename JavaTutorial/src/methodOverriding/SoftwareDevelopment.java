@@ -17,9 +17,7 @@ public class SoftwareDevelopment extends ItDepartment{
 	
 	public void TurnstileGateCardReaderEntrance() {
 		System.out.println(this.role +": " + this.name + " Entered");
-=======
 		System.out.println(this.role +": " + this.name + " Entered with Overridden method");
->>>>>>> branch 'master' of https://github.com/iozberk/JavaTutorial.git
 	}
 	
 	public void TurnstileGateCardReaderExit() {

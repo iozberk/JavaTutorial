@@ -43,5 +43,11 @@ public class Employee {
 	}
 
 	
+	public static void listEnterence(Employee[] enterence) {
+		for(Employee e : enterence) {
+			e.TurnstileGateCardReaderEntrance();
+		}
+	}
+	
 	
 }
