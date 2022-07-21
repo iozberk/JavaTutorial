@@ -16,6 +16,12 @@ public class Infrastructure extends ItDepartment{
 	public void setTools(String tools) {
 		this.tools = tools;
 	}
+
+	@Override
+	public void exampleMethod() {
+		System.out.println("Abstraction  Method");
+		
+	}
 	
 	
 	

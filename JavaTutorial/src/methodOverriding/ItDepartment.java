@@ -1,6 +1,6 @@
 package methodOverriding;
 
-public class ItDepartment extends Employee{
+public abstract class ItDepartment extends Employee{
 	protected String subDepartment, title, programmingLanguage;
 
 	public ItDepartment(String name, String surname, String email, String subDepartment, String title,
@@ -36,7 +36,7 @@ public class ItDepartment extends Employee{
 	}
 	
 	
-	
+	public abstract void exampleMethod();
 	
 	
 	

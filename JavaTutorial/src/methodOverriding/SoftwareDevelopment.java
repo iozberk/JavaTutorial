@@ -33,6 +33,12 @@ public class SoftwareDevelopment extends ItDepartment{
 	public void setRole(String role) {
 		this.role = role;
 	}
+
+	@Override
+	public void exampleMethod() {
+		System.out.println("Abstraction  Method");
+		
+	}
 	
 	
 }
