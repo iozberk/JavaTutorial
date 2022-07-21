@@ -1,10 +1,16 @@
 package survivalGame;
+import java.util.Scanner;
 
 public class Main {
 
 	public static void main(String[] args) {
-		System.out.println("Welcome to Survival Game");
-
+		Game game = new Game();
+		game.login();
+		
+		
+		// aSystem.out.println();
+		
+		
 	}
 
 }

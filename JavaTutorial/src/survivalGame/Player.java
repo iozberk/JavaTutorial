@@ -1,9 +1,12 @@
 package survivalGame;
 
+import java.util.Scanner;
+
 public class Player {
 	private int damage, health, money;
 	private String name,charName;
 	private Inventory inventory;
+	Scanner scan = new Scanner(System.in);
 	
 	public Player(String name) {
 		// public Player(int damage, int health, int money, String name, String charName, Inventory inventory) {
@@ -17,7 +20,24 @@ public class Player {
 	}
 	
 	
+	public void selectChar() {
+		selectMenu();
+	}
 	
+	public int selectMenu() {
+		System.out.println("Please choose character: ");
+		System.out.println("1 - Knight \t Damage = 5, Health = 21, Money = 15" );
+		System.out.println("2 - Archer \t Damage = 7, Health = 18, Money = 20" );
+		System.out.println("3 - Warrior \t Damage = 8, Health = 24, Money = 5" );
+		System.out.println();
+		int charId = scan.nextInt();
+		while (charId < 1 || charId > 3) {
+			
+			System.out.print("Please enter your character choice: ");
+			charId = scan.nextInt();
+		}
+		return charId;
+	}
 	
 	public int getDamage() {
 		return damage;
