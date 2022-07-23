@@ -10,7 +10,7 @@ public class Player {
 	
 	public Player(String name) {
 		// public Player(int damage, int health, int money, String name, String charName, Inventory inventory) {
-		// super();
+		//super();
 		// this.damage = damage;
 		// this.health = health;
 		// this.money = money;
@@ -19,20 +19,46 @@ public class Player {
 		// this.inventory = inventory;
 	}
 	
-	
 	public void selectChar() {
-		selectMenu();
-	}
+		switch(selectMenu()) {
+		case 1: // Knight
+			setCharName("Knight");
+			setDamage(5);
+			setHealth(21);
+			setMoney(15);
+			break;
+		case 2: // Archer
+			setCharName("Archer");
+			setDamage(7);
+			setHealth(18);
+			setMoney(20);
+			break;
+		case 3: // Warrior
+			setCharName("Warrior");
+			setDamage(8);
+			setHealth(24);
+			setMoney(5);
+			break;
+		default:
+			setCharName("Knight");
+			setDamage(5);
+			setHealth(21);
+			setMoney(15);
+			break;
+		}
+		System.out.println("Chracter Created ---> Char Name: " + getCharName() + ", Damage: " + getDamage()+ ", Health: " + getHealth() + ", Money: "+ getMoney());
+	}	
+		
 	
 	public int selectMenu() {
-		System.out.println("Please choose character: ");
+		System.out.println();
 		System.out.println("1 - Knight \t Damage = 5, Health = 21, Money = 15" );
 		System.out.println("2 - Archer \t Damage = 7, Health = 18, Money = 20" );
 		System.out.println("3 - Warrior \t Damage = 8, Health = 24, Money = 5" );
 		System.out.println();
+		System.out.print("Please enter your character choice: ");
 		int charId = scan.nextInt();
 		while (charId < 1 || charId > 3) {
-			
 			System.out.print("Please enter your character choice: ");
 			charId = scan.nextInt();
 		}
