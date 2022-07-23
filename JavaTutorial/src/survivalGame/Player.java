@@ -3,7 +3,7 @@ package survivalGame;
 import java.util.Scanner;
 
 public class Player {
-	private int damage, health, money;
+	private int damage, health, money, realHealth;
 	private String name,charName;
 	private Inventory inventory;
 	Scanner scan = new Scanner(System.in);
@@ -58,6 +58,7 @@ public class Player {
 		setDamage(damage);
 		setHealth(health);
 		setMoney( money);
+		setRealHealth(health);
 	}
 	
 	public int getDamage() {
@@ -95,6 +96,14 @@ public class Player {
 	}
 	public void setInventory(Inventory inventory) {
 		this.inventory = inventory;
+	}
+
+	public int getRealHealth() {
+		return realHealth;
+	}
+
+	public void setRealHealth(int realHealth) {
+		this.realHealth = realHealth;
 	}
 	
 	
