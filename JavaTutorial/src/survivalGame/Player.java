@@ -16,7 +16,7 @@ public class Player {
 		// this.money = money;
 		this.name = name;
 		// this.charName = charName;
-		// this.inventory = inventory;
+		this.inventory = new Inventory();
 	}
 	
 	public void selectChar() {

@@ -39,7 +39,7 @@ public class Game {
 			case 1:
 				location = new SafeHouse(player);
 				break;
-			/* case 2:
+			/*case 2:
 				location = new Cave(player);
 				break;+
 			case 3:
@@ -47,10 +47,10 @@ public class Game {
 				break;
 			case 4:
 				location = new River(player);
-				break;
+				break;*/
 			case 5:
-				location = new Store(player);
-				break; */
+				location = new ToolStore(player);
+				break;
 			default:
 				location = new SafeHouse(player);
 				break;

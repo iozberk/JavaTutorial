@@ -1,9 +1,11 @@
 package survivalGame;
 
+import java.util.Scanner;
+
 public abstract class Location {
 	protected Player player;
 	protected String name;
-	
+	Scanner scan = new Scanner(System.in);
 	
 	Location(Player player){
 		this.player = player;
