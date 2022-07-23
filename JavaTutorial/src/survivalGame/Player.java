@@ -22,28 +22,16 @@ public class Player {
 	public void selectChar() {
 		switch(selectMenu()) {
 		case 1: // Knight
-			setCharName("Knight");
-			setDamage(5);
-			setHealth(21);
-			setMoney(15);
+			initPlayer("Knight", 5, 21, 15);
 			break;
 		case 2: // Archer
-			setCharName("Archer");
-			setDamage(7);
-			setHealth(18);
-			setMoney(20);
+			initPlayer("Archer", 7, 18, 20);
 			break;
 		case 3: // Warrior
-			setCharName("Warrior");
-			setDamage(8);
-			setHealth(24);
-			setMoney(5);
+			initPlayer("Warrior", 8, 24, 5);
 			break;
 		default:
-			setCharName("Knight");
-			setDamage(5);
-			setHealth(21);
-			setMoney(15);
+			initPlayer("Knight", 5, 21, 15);;
 			break;
 		}
 		System.out.println("Chracter Created ---> Char Name: " + getCharName() + ", Damage: " + getDamage()+ ", Health: " + getHealth() + ", Money: "+ getMoney());
@@ -63,6 +51,13 @@ public class Player {
 			charId = scan.nextInt();
 		}
 		return charId;
+	}
+	
+	public void initPlayer(String charName, int damage, int health, int money) {
+		setCharName(charName);
+		setDamage(damage);
+		setHealth(health);
+		setMoney( money);
 	}
 	
 	public int getDamage() {
