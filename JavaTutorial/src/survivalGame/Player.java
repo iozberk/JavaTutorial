@@ -31,7 +31,7 @@ public class Player {
 			initPlayer("Warrior", 8, 24, 5);
 			break;
 		default:
-			initPlayer("Knight", 5, 21, 15);;
+			initPlayer("Knight", 5, 21, 15);
 			break;
 		}
 		System.out.println("Chracter Created ---> Char Name: " + getCharName() + ", Damage: " + getDamage()+ ", Health: " + getHealth() + ", Money: "+ getMoney());
