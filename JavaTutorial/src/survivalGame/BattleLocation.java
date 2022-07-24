@@ -31,7 +31,7 @@ public abstract class BattleLocation extends Location{
     				player.getInventory().setFirewood(true);
     			}
     			return true;
-    		}else {
+    		}if(player.getHealth() <= 0) {
     			System.out.println("You died!!! Game Over!!!");
     			return false;
     		}
@@ -59,12 +59,9 @@ public abstract class BattleLocation extends Location{
         				player.setHealth(player.getHealth() - (obstacle.getDamage() - player.getInventory().getArmor()));
         				afterHit();
     	    		}
-    			}
-    			if(player.getHealth() <= 0){
-    				System.out.println("You died!");
+    			}else{
     				return false;
     			}
-    			return true;
     		}
     		if(obstacle.getHealth() <= 0 && player.getHealth() > 0) {
     			System.out.println("You killed enemy");
@@ -80,7 +77,11 @@ public abstract class BattleLocation extends Location{
     }
     
     public void playerStats() {
-    	System.out.println("Player Details --->>  \t Health: \t "+ player.getHealth() +" \t Damage: \t "+ player.getTotalDamage()+" \t Defense: \t "+ player.getTotalDefense());
+    	System.out.println("Player Details --->>" );
+    	System.out.println("Health: \t "+ player.getHealth());
+    	System.out.println("Damage: \t "+ player.getTotalDamage());
+    	System.out.println("Defense: \t "+ player.getTotalDefense());
+    	System.out.println();
     	if(player.getInventory().getDamage() > 0) {
     		System.out.println("Weapon: " + player.getInventory().getWeaponName());
     	}
@@ -90,7 +91,11 @@ public abstract class BattleLocation extends Location{
     }
     
     public void enemyStats() {
-    	System.out.println("Enemy: " + obstacle.getName() + " Details: --->>  \t Health: \t " + obstacle.getHealth() + " \t Damage: \t " + obstacle.getDamage() + "\t Award: \t" + obstacle.getAward());
+    	System.out.println("Enemy: " + obstacle.getName());
+    	System.out.println("Health: \t "+ obstacle.getHealth());
+    	System.out.println("Damage: \t "+ obstacle.getDamage());
+    	System.out.println("Defense: \t "+ obstacle.getAward());
+    	System.out.println();
     	
     }
     public void afterHit() {
