@@ -11,7 +11,10 @@ public abstract class BattleLocation extends Location{
 	}
 	
     public boolean getLocation() {
+    	int obstacleCount = obstacle.obstacleCount();
+    	
 		return true;
 	}
+    
 
 }
