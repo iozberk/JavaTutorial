@@ -23,7 +23,7 @@ public class Game {
 			System.out.println();
 			System.out.println("////////////////////////////////////////");
 			System.out.println();
-			System.out.print("Please choice Location :");
+			System.out.println("Please choice Location :");
 			System.out.println("1 --> Safe House ");
 			System.out.println("2 --> Cave ");
 			System.out.println("3 --> Forest ");
@@ -32,7 +32,7 @@ public class Game {
 			System.out.println("Preferred Location :");
 			int selectLocation = scan.nextInt();
 			while(selectLocation < 0 || selectLocation > 5){
-				System.out.print("Please choice Location :");
+				System.out.println("Please choice Location :");
 				selectLocation = scan.nextInt();
 			}
 			switch (selectLocation) {

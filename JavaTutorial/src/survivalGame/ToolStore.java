@@ -100,7 +100,7 @@ public class ToolStore extends NormalLocation{
 		case 1:
 			damage = 2;
 			weaponName = "Gun(Pistol)";
-			price = 5;
+			price = 25;
 			break;
 		case 2:
 			damage = 3;
