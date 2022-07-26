@@ -9,7 +9,13 @@ public class Main {
         // Local class 
         // Anonymous class
 
+        NonStatic non = new NonStatic();
+        NonStatic.Inner inner = non.new Inner();
+        // inner.run();
 
-        
+
+        Static.Inner s = new Static.Inner();
+        s.run();
+
     }
 }
