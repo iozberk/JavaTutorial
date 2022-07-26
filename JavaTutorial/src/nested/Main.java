@@ -20,5 +20,17 @@ public class Main {
         System.out.println("////////////////////");
         Local l = new Local();
         l.run();
+
+        // Anonymous a = new Anonymous();
+        // a.run();   Normal
+
+        // Anonymous override
+
+        Anonymous a = new Anonymous(){  // Override used only in existing methods
+            public void run(){
+                System.out.println("Anonymous override method run");
+            }
+        };
+        a.run();
     }
 }
