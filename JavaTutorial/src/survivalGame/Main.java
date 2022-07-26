@@ -8,8 +8,8 @@ public class Main {
 		game.login();
 		
 		
-		// aSystem.out.println();
-		
+		// System.out.println();
+		// System.out.println();
 		
 	}
 
