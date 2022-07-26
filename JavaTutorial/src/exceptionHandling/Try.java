@@ -4,8 +4,10 @@ public class Try {
     public static void main(String[] args) {
         System.out.println("Welcome to page");
         try {
-            int a = 2/0;
+            System.out.println("Try sysout test");
+            int a = 2/0; // Error line
             System.out.println(a);
+            System.out.println("The try block will not run when an error occurs. Note: lines after error");
         } catch (ArithmeticException e) {
            // System.out.println("Error");
            System.out.println(e.getMessage());
@@ -14,6 +16,6 @@ public class Try {
 
         System.out.println("Have a nice day");
     }
-
+ 
     
 }
