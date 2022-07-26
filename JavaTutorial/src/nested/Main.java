@@ -17,5 +17,8 @@ public class Main {
         Static.Inner s = new Static.Inner();
         s.run();
 
+        System.out.println("////////////////////");
+        Local l = new Local();
+        l.run();
     }
 }
