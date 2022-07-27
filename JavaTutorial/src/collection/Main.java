@@ -85,7 +85,7 @@ public class Main {
 
 		linked.add("a");
 
-		linked.forEach(i -> System.out.print(i +" ")); // Output --->>> a b c d a
+		linked.forEach(i -> System.out.print(i +" ")); // Output --->>> null a b 2 3 5 a null
 
 
 
@@ -107,7 +107,7 @@ public class Main {
 		vec.add("a");
 		vec.add(null);
 
-		vec.forEach(v -> System.out.print(v +" ")); // Output --->>> null a b 2 3 5 a null
+		vec.forEach(v -> System.out.print(v +" ")); // Output --->>> a b c d a
 
 	} 
 
