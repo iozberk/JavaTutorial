@@ -109,6 +109,10 @@ public class Main {
 
 		vec.forEach(v -> System.out.print(v +" ")); // Output --->>> null a b 2 3 5 a null
 
+
+		System.out.println();
+		System.out.println("Size: " + vec.size()); // Size: 8
+		System.out.println("Capacity: " + vec.capacity()); // Capacity: 10
 	} 
 
 }
