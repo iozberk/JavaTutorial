@@ -85,11 +85,29 @@ public class Main {
 
 		linked.add("a");
 
-		linked.forEach(i -> System.out.print(i +" ")); // Output --->>> a b c d a
+		linked.forEach(i -> System.out.print(i +" ")); // Output --->>> null a b 2 3 5 a null
 
 
 
+		System.out.println();
+		System.out.println("------------******************----------------");
+		// Vector<E>
 
+
+		Vector vec = new Vector();
+
+		vec.add(null);
+		vec.add("a");
+		vec.add("b");
+
+		vec.add(2);
+		vec.add(3);
+		vec.add(5);
+
+		vec.add("a");
+		vec.add(null);
+
+		vec.forEach(v -> System.out.print(v +" ")); // Output --->>> a b c d a
 
 	} 
 
