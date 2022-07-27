@@ -54,6 +54,24 @@ public class Main {
 
 		tree.forEach(item -> System.out.print(item +" ")); // Output --->>> 1 3 8 15
 
+		System.out.println();
+		System.out.println("------------******************----------------");
+
+
+		// ArrayList<E>
+		// LinkedList<E>
+		// Vector<E>
+
+		ArrayList country = new ArrayList();
+		country.add("USA");
+		country.add("Canada");
+		country.add("Mexico");
+		country.add("USA"); // Will displayed
+		country.add(0, "Cuba"); // 0. index
+
+
+
+		country.forEach(item -> System.out.print(item +" ")); // Output --->>> Cuba USA Canada Mexico USA
 
 	} 
 
