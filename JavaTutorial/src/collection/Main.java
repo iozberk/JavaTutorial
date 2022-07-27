@@ -107,7 +107,7 @@ public class Main {
 		vec.add("a");
 		vec.add(null);
 
-		vec.forEach(v -> System.out.print(v +" ")); // Output --->>> a b c d a
+		vec.forEach(v -> System.out.print(v +" ")); // Output --->>> null a b 2 3 5 a null
 
 	} 
 
