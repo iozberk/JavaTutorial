@@ -73,6 +73,24 @@ public class Main {
 
 		country.forEach(item -> System.out.print(item +" ")); // Output --->>> Cuba USA Canada Mexico USA
 
+		System.out.println();
+		System.out.println("------------******************----------------");
+
+
+		LinkedList linked = new LinkedList();
+		linked.add("a");
+		linked.add("b");
+		linked.add("c");
+		linked.add("d");
+
+		linked.add("a");
+
+		linked.forEach(i -> System.out.print(i +" ")); // Output --->>> a b c d a
+
+
+
+
+
 	} 
 
 }
