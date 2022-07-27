@@ -31,9 +31,31 @@ public class Main {
 		days.add("Friday");
 		days.add("Saturday");
 		days.add("Sunday");
+		days.add("Monday"); // Only 1 times output
+		days.forEach(item -> System.out.print(item +" ")); // Output --->>> Monday Tuesday Wednesday Thursday Friday Saturday Sunday
+		System.out.println();
+		System.out.println("------------******************----------------");
 
-		days.forEach(item -> System.out.print(item +" "));
-	}
+
+		TreeSet tree = new TreeSet<>();
+		tree.add(15);
+		tree.add(3);
+		tree.add(1);
+		tree.add(8);
+
+		
+		// tree.add(null); // java.lang.NullPointerException Error
+
+		try {
+			tree.add(null);
+		} catch (Exception e) {
+			System.out.println(e.toString());
+		}
+
+		tree.forEach(item -> System.out.print(item +" ")); // Output --->>> 1 3 8 15
+
+
+	} 
 
 }
  
