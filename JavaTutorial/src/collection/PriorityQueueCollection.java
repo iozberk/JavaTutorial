@@ -1,8 +1,10 @@
 package collection;
 
-public class PriorityQueue  {
+import java.util.PriorityQueue;
+
+public class PriorityQueueCollection  {
     public static void main(String[] args) {
-        PriorityQueue pQueue = new PriorityQueue();
+        PriorityQueue pQueue = new PriorityQueue<>();
         pQueue.add(80);
         pQueue.add(30);
         pQueue.add(20);

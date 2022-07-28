@@ -28,5 +28,6 @@ public class OrderDesc {
 				System.out.println("c > b > a");
 				}
 			}
+			input.close();
 	}
 }

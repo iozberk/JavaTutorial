@@ -11,6 +11,7 @@ public class NumberGuessingGame2 {
 		for(i = 0; i < K; i++) {
 			System.out.print("Guess the number: ");
 			guess= input.nextInt();
+			input.close();
 			if(guess == number) {
 				System.out.println("Congratulations! You guessed the number.");
 	        	System.out.println("Guessed number is: " + number);

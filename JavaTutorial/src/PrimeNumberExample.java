@@ -11,6 +11,7 @@ public class PrimeNumberExample {
 		do {
 			System.out.println("Enter positive number: ");
 			prime = input.nextInt();
+			
 		}while(prime < 2);
 		
 		for(int i = 2; i < prime; i++) {
@@ -24,6 +25,7 @@ public class PrimeNumberExample {
 		}else {
 			System.out.println("Entered number: " + prime + " NOT prime");
 		}
+		input.close();
 	}
 
 }

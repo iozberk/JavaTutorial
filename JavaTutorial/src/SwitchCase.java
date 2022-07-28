@@ -18,7 +18,7 @@ public class SwitchCase {
 		default:
 			System.out.println("Error");
 		}
-		
+		scan.close();
 	}
 
 }

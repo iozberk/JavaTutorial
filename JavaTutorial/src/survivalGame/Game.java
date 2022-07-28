@@ -15,6 +15,7 @@ public class Game {
 		player = new Player("PlayerName");
 		player.selectChar();
 		start();
+		scan.close();
 
 	}
 	
@@ -31,6 +32,7 @@ public class Game {
 			System.out.println("5 --> Store ");
 			System.out.println("Preferred Location :");
 			int selectLocation = scan.nextInt();
+			
 			while(selectLocation < 0 || selectLocation > 5){
 				System.out.println("Please choice Location :");
 				selectLocation = scan.nextInt();
@@ -65,6 +67,7 @@ public class Game {
 				System.out.println("Game Over !!!");
 				break;
 			}
+			scan.close();
 		}
 	}
 	

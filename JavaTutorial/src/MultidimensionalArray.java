@@ -8,7 +8,7 @@ public class MultidimensionalArray {
 			{10,20,30},
 			{100,200,300}, 
 			};
-		int[][] table2 = new int[5][3];
+		// int[][] table2 = new int[5][3];
 		table[0][0] = 1;
 		table[0][1] = 2;
 		table[0][2] = 3;

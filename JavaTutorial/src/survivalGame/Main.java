@@ -1,5 +1,4 @@
 package survivalGame;
-import java.util.Scanner;
 
 public class Main {
 

@@ -19,7 +19,7 @@ public class NumberGuessingGame {
         while(K > 0) {
         	System.out.println("Guess the number:");
         	guess = input.nextInt();
-        	
+        	input.close();
         	if((guess < 0) || (guess > 99)) {
         		System.out.println("Please enter the number 0 - 99");
         		continue;

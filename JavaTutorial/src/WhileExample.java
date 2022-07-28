@@ -50,7 +50,7 @@ public class WhileExample {
 		num1 = input3.nextInt();
 		System.out.println("Enter exponent number: ");
 		num2 = input3.nextInt();
-		
+		input3.close();
 		int i = 1;
 		while(i <= num2) {
 			result = result * num1;

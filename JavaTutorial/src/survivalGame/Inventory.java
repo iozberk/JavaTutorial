@@ -6,9 +6,9 @@ public class Inventory {
 	private int damage, armor;
 	
 	public Inventory() {
-		this.water = water;
-		this.food = food;
-		this.firewood = firewood;
+		// this.water = water;
+		// this.food = food;
+		// this.firewood = firewood;
 		this.damage = 0;
 		this.armor = 0;
 		this.weaponName = null;

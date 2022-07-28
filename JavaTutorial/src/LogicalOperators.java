@@ -2,7 +2,7 @@
 public class LogicalOperators {
 
 	public static void main(String[] args) {
-		int a = 10, b = 23, c = 4, d = 43;
+		int a = 10, b = 23 ;
 		
 		boolean condition1 = a < b;
 		boolean condition2 = a > b;

@@ -30,6 +30,7 @@ public class Login {
 		else {
 			System.out.println("Login failed!");
 		}
+		input.close();
 		
 	} 
 
