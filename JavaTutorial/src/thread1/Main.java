@@ -2,9 +2,6 @@ package thread1;
 
 public class Main {
     public static void main(String[] args) {
-
-      
-
       TransactionsThreadTest thread = new TransactionsThreadTest("First");
       // thread.run();
       Thread t1 = new Thread(thread);
