@@ -5,7 +5,7 @@ public class GpaArray {
 	public static void main(String[] args) {
 		
 		int[] grades = new int[7];
-		double result = 0.0;
+		// double result = 0.0;
 		int total = 0;
 		Scanner input = new Scanner(System.in);
 		System.out.println("Welcome! Please enter grades ordered: ");
@@ -30,7 +30,7 @@ public class GpaArray {
 
 		System.out.print("7 - Art: ");
 		grades[6] = input.nextInt();
-		
+		input.close();
 		for (int grade: grades) {
 			total += grade;
 			}

@@ -11,7 +11,7 @@ public class CircleAreaandPerimeterCalculator {
 		System.out.println("Enter the radius of the circle ");
 		
 		radius = input.nextFloat();
-		
+		input.close();
 		area = pi * radius * radius;
 		perimeter = 2 * pi * radius;
 		

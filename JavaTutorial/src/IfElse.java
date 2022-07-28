@@ -4,7 +4,7 @@ public class IfElse {
 	public static void main(String[] args) {
 
 		 
-		int a = 50, b = 23, c = 12;
+		int a = 50, b = 23;
 		/*		
 		if (a == b) {
 			System.out.println("A and B equal ");

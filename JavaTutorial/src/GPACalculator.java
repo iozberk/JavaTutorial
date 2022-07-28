@@ -11,7 +11,7 @@ public class GPACalculator {
 		midterm2 = input.nextInt();
 		System.out.println("Please enter Final Grade: ");
 		finalgrade = input.nextInt();
-		
+		input.close();
 		int lastgrade = (int) ((midterm1 * 0.3) + (midterm2 * 0.3) + (finalgrade * 0.5)); 
 		System.out.println("Your Midterm and Final Average: "+ lastgrade);
 		String conc = (lastgrade >= 50) ? "Passed" : "Not Passed";

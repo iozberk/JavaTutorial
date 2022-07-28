@@ -9,6 +9,7 @@ public class FibonacciNumbers {
 		Scanner input = new Scanner(System.in);
 		System.out.println("Please enter number: ");
 		int fib = input.nextInt();
+		input.close();
 		for(int i = 1; i <= fib; i++) {
 			
 			System.out.print(num1 + " , ");

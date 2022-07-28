@@ -39,6 +39,7 @@ public class AtmProject {
 			}
 			
 		}
+		scan.close();
 		System.out.println("Thanks!!!");		
 		
 	}

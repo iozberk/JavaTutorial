@@ -14,6 +14,7 @@ public class Calculator {
 		System.out.println("1- Addition\n2- Subtraction\n3- Division\n4- Multiplication");
 		System.out.println("Selection : ");
 		int select = input.nextInt();
+		input.close();
 		if (select == 1) {
 			System.out.println("Addition: " + num1 + num2);
 		}

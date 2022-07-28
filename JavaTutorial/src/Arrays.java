@@ -16,7 +16,7 @@ public class Arrays {
 		
 		int[] list1 = new int[4];
 		Scanner input = new Scanner(System.in);
-		
+		input.close();
 		for(int i = 0; i < list1.length; i++) {
 			System.out.println("Please enter " + i + " number");
 			list1[i] = input.nextInt();

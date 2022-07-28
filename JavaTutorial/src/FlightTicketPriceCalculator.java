@@ -18,7 +18,7 @@ public class FlightTicketPriceCalculator {
 		
 		System.out.println("Please enter flight type: (1- OneWay\n 2-RoundTrip)");
 		flighttype = input.nextInt();
-		
+		input.close();
 		double price, agediscount, flighttypediscount;
 		
 		if (kilometer > 0 && age > 0 && (flighttype == 1 || flighttype == 2)) {

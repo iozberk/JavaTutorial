@@ -20,6 +20,7 @@ public class BreakContinue {
 			
 			
 		}
+		input.close();
 		System.out.println("----Java Continue----");
 			for(int i = 0; i < 10; i++) {
 				if(i == 3) {
